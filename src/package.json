@@ -1,0 +1,11 @@
+{
+  "name": "dev",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "^0.8.1"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
