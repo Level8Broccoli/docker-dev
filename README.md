@@ -5,5 +5,5 @@ Simple docker environment for development. Mounts the `src` folder which has a s
 ## Build and run
 
 ```shell
-docker compose run --rm --build dev
+docker compose run --service-ports --rm --build dev
 ```

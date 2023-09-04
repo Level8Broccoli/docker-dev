@@ -1,1 +1,8 @@
-Bun.serve({port: 4321, hostname: "demo.com", fetch(req) { return new Response("Works"); }, });
+const server = Bun.serve({
+	port: 4000,
+	fetch(req) { 
+		return new Response("Works"); 
+	}, 
+});
+
+console.log(`Server runs on http://localhost:${server.port}`);

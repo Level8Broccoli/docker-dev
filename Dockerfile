@@ -7,6 +7,7 @@ RUN apt update && \
   sudo \
   vim \
   npm \
+  tmux \
   && \
   apt-get clean && \ 
   rm -rf /var/lib/apt/lists/*
