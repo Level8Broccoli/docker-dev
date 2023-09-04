@@ -1,6 +1,6 @@
 # docker-dev
 
-Slim docker environment for development. Mounts the `src` folder which has a simple [bun](https://bun.sh) project ready.
+Slim docker environment for development. Mounts the `src` folder which has a simple [Bun](https://bun.sh) project ready.
 
 ## Build and run
 
