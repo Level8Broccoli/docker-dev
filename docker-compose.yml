@@ -7,4 +7,4 @@ services:
     volumes:
       - ./src:/home/src
     ports:
-      - "4000-4025:4000-4025"
+      - "6000-6025:6000-6025"
